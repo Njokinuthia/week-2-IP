@@ -69,5 +69,16 @@ div.cont2 > div{
 /* third container styling */
 div.cont3{
   border: 1px solid black;
+  
+}
+div#industry{
+  padding-left: 20%;
+  padding-right: 20%;
   text-align: center;
+}
+div.users{
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
