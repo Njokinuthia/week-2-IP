@@ -1,3 +1,4 @@
+/* first pic styling */
 /* navigation styling */
 div.cont1{
   border: 1px solid black;
@@ -29,6 +30,12 @@ div.joinnow > p{
   border: 1px solid black;
   margin: 10px;
   padding: 5px;
+
+}
+div.topinfo{
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
 
 }
 
