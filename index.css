@@ -68,9 +68,9 @@ div.cont2 > div{
 }
 /* third container styling */
 div.cont3{
-  border: 1px solid black;
-  
+  border: 1px solid black;  
 }
+
 div#industry{
   padding-left: 20%;
   padding-right: 20%;
@@ -106,7 +106,15 @@ div#mail >p{
   padding-right: 50%;
 } */
 div#pricing{
-  padding-left: 20%;
-  padding-right: 20%;
+  padding: 5%;
   text-align: center;
+  border: 1px solid black;
+}
+/* pricing design */
+div.pricedivs{
+  display: flex;
+}
+/* cont4 styling */
+div.cont4{
+  display: flex;
 }
