@@ -116,5 +116,5 @@ div.pricedivs{
 }
 /* cont4 styling */
 div.cont4{
-  display: flex;
+  border: 1px solid black;
 }
