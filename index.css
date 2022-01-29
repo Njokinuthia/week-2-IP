@@ -95,9 +95,8 @@ div.newsletter{
   margin-left: 15%;
   margin-right: 15%;
 }
-div#mail{
-  display: flex;
-  
+/* div#mail{
+  display: flex;  
   margin-left: 40%;
   
 }
@@ -105,4 +104,9 @@ div#mail >p{
   border: 1px solid black;
   padding-right: 1%;
   padding-right: 50%;
+} */
+div#pricing{
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
 }
