@@ -1,3 +1,7 @@
+body{
+  font-family: "montserrat";
+}
+
 /* first pic styling */
 /* navigation styling */
 div.cont1{  
@@ -49,6 +53,7 @@ div.topinfo{
   justify-content: center;
   margin-left: 10%;
   padding-bottom: 10%;
+  
 }
 
 div.topinfo > div{
@@ -156,6 +161,7 @@ div.pricedivs{
   display: flex;
   justify-content: center; 
   text-align: center;  
+  margin-bottom: 5%;
 }
 div.pricedivs > div#free , div#premium{  
   margin-top: 5%;
@@ -170,7 +176,49 @@ div.pricedivs >div{
 }
 /* cont4 styling */
 div.cont4{
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 5%;
   border: 1px solid black;
-  background-color: #252B42;}
+  background-color: #252B42;
 
+}
+ 
+  
+
+  div.cont4 > div#left{    
+    float: left;  
+    width: 40%; 
+    color: white;
+    border: 1px solid black; 
+   
+  }
+  div.cont4 > div#right{
+    margin-left: 0;
+    float: right;  
+    border: 1px solid black;
+  }
+  div.cont4 > div#bottom{
+    clear: both;
+  }
+  div.appointment{
+   display: flex; 
+   background-color: white;
+   width: 70%;  
+   margin-left: 15%;    
+  }
+  div.appointment > div#pic{
+    width: 50%;
+  }
+
+  div.appointment > div#table{
+    margin-left: 10%;
+  }
+
+/* cont5 */
+div.contactus{
+  display: flex;
+  border: 1px solid black;
+  }
+}
 
