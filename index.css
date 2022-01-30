@@ -1,32 +1,50 @@
 body{
   font-family: "montserrat";
 }
+h1{
+  font-size: 56px;
+}
 
 /* first pic styling */
 /* navigation styling */
 div.cont1{  
-  border: 1px solid black;
+  
   background-image: url('ipweek2 pics/herocover.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 nav{
   color: white;
-  border: 1px solid black;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 ul#nav{
-  display: flex;   
+  list-style: none;
+  border: 1px solid red;
+  display: flex; 
+  justify-content: space-between;  
 }
 
 ul#login{
+  list-style: none;
   display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+  
+
 }
 #blue{
   background-color: #23A6F0;
   }
 ul > li > a{
+  display: flex;
+  justify-content: space-between;
   text-decoration: none; 
+  padding-bottom: 5%;
+
   color: white; 
   padding: %;  
 }
@@ -45,7 +63,8 @@ div.joinnow > p{
   border: 1px solid white;
   margin: 10px;
   padding: 5px;
-  border-radius: 30%;
+  border-radius: 20%;
+ 
 
 }
 div.topinfo{
@@ -58,8 +77,10 @@ div.topinfo{
 
 div.topinfo > div{
   margin-right: 5%;  
-  padding: 5%;  
+  padding: 2%;  
   text-align: left;
+  height: 5%;
+  width: 30%;
 }
 
 div.topinfo > div#white{   
@@ -220,5 +241,10 @@ div.contactus{
   display: flex;
   border: 1px solid black;
   }
+div.cont6{ 
+  display: flex;
 }
+
+
+
 
