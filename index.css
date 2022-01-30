@@ -12,8 +12,11 @@ div.cont1{
   background-image: url('ipweek2 pics/herocover.png');
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
+div#overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 nav{
   color: white;
   display: flex;
@@ -57,6 +60,7 @@ div.joinnow{
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
+  
   color: white;
 }
 div.joinnow > p{
@@ -71,8 +75,7 @@ div.topinfo{
   display: flex;
   justify-content: center;
   margin-left: 10%;
-  padding-bottom: 10%;
-  
+  padding-bottom: 2%; 
 }
 
 div.topinfo > div{
@@ -81,6 +84,7 @@ div.topinfo > div{
   text-align: left;
   height: 5%;
   width: 30%;
+  
 }
 
 div.topinfo > div#white{   
@@ -93,31 +97,30 @@ div.topinfo > div#blue{
 
 /* second part styling */
 div.cont2{
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   font-size: small; 
-  /* padding-left: 10%; */
+  padding-left: 10%;
   padding-top: 10%;
   padding-bottom: 10%;
 }
 div.cont2 > div{
   margin-right: 5%;
-  text-align: center;
-  border: 1px solid black;
- 
+  text-align: center; 
   padding: 5%;
   
 }
 /* third container styling */
 div.cont3{
-  border: 1px solid black;  
+  background-color: whitesmoke;   
 }
 
 div#industry{
   padding-left: 20%;
   padding-right: 20%;
   text-align: center;
+  padding-top: 10%;
+  
 }
 div.users{
   display: flex;
@@ -126,10 +129,12 @@ div.users{
   padding-bottom: 10%;
 }
 div.users > div{
-  margin: 5%;
-  border: 1px solid black;
+  margin: 2%;
   text-align: center;
+  background-color: white;
+  padding: 2%;
 }
+
 
 div.newsletter{
   border: 1px solid black;  
@@ -171,8 +176,7 @@ div#mail >p{
 div#pricing{
   padding: 5%;
   text-align: center;
-  border: 1px solid black;
-}
+  }
 p#blue{
   background-color: #23A6F0;
 }
@@ -182,14 +186,17 @@ div.pricedivs{
   display: flex;
   justify-content: center; 
   text-align: center;  
-  margin-bottom: 5%;
+  padding-bottom: 5%;
 }
 div.pricedivs > div#free , div#premium{  
   margin-top: 5%;
+  background-color: white;
+  border-radius: 5%;
 }
 div#standard{
   background-color:#252B42 ;
   color: white;
+  border-radius: 5%;
 }
 div.pricedivs >div{
   border: 1px solid #23A6F0 ;
@@ -199,7 +206,6 @@ div.pricedivs >div{
 div.cont4{
   padding-left: 2%;
   padding-right: 2%;
-  margin-top: 5%;
   border: 1px solid black;
   background-color: #252B42;
 
