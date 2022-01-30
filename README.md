@@ -1,4 +1,4 @@
-# week-2-IP# Portfolio
+# week-2-IP
 
 ##### By Eunice Njoki Kinuthia
 ### It is a description of my week 2 IP, an insurance site webpage.
