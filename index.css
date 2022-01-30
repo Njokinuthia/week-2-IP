@@ -71,12 +71,14 @@ div.cont2{
   display: flex;
   justify-content: center;
   font-size: small; 
-  padding-left: 10%;
+  /* padding-left: 10%; */
   padding-top: 10%;
   padding-bottom: 10%;
 }
 div.cont2 > div{
   margin-right: 5%;
+  text-align: center;
+  border: 1px solid black;
  
   padding: 5%;
   
@@ -97,6 +99,11 @@ div.users{
   padding-top: 10%;
   padding-bottom: 10%;
 }
+div.users > div{
+  margin: 5%;
+  border: 1px solid black;
+  text-align: center;
+}
 
 div.newsletter{
   border: 1px solid black;  
@@ -105,6 +112,20 @@ div.newsletter{
   width: 70%;
   margin: auto;  
 }
+
+div.logos{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+
+div.logos > img{
+  margin: 2%;
+
+}
+
 p#two{
   background-color: #23A6F0;
   padding-right: 20%;  
@@ -133,9 +154,15 @@ p#blue{
 /* pricing design */
 div.pricedivs{
   display: flex;
-  justify-content: space-evenly; 
-  text-align: center; 
-  
+  justify-content: center; 
+  text-align: center;  
+}
+div.pricedivs > div#free , div#premium{  
+  margin-top: 5%;
+}
+div#standard{
+  background-color:#252B42 ;
+  color: white;
 }
 div.pricedivs >div{
   border: 1px solid #23A6F0 ;
@@ -144,6 +171,6 @@ div.pricedivs >div{
 /* cont4 styling */
 div.cont4{
   border: 1px solid black;
-  background-color: #252B42;
-}
+  background-color: #252B42;}
+
 
