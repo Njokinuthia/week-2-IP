@@ -1,132 +1,168 @@
-body{
+* {
+  margin: 0%;
+}
+
+body {
   font-family: "montserrat";
 }
-h1{
+
+h1 {
   font-size: 56px;
 }
 
 /* first pic styling */
 /* navigation styling */
-div.cont1{  
-  
+div.cont1 {
+
   background-image: url('ipweek2 pics/herocover.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
-div#overlay{
+
+div#overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-nav{
+nav {
   color: white;
   display: flex;
   justify-content: space-between;
   padding-right: 10%;
   padding-left: 10%;
-}
-ul#nav{
-  list-style: none;
-  display: flex; 
-  justify-content: space-between;  
+  align-items: center;
 }
 
-ul#login{
+.brand {
+  width: 15%;
+}
+
+.nav-container {
+  width: 60%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.buttons {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.login {
+  background-color: transparent;
+  border: none;
+  color: white;
+  height: 40px;
+}
+
+.get-started {
+  background: #23A6F0;
+  border-radius: 5px;
+  color: white;
+  height: 40px
+}
+
+ul #login {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  
-
 }
-#blue{
+
+#blue {
   background-color: #23A6F0;
-  }
-ul > li > a{
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none; 
-  padding-bottom: 5%;
-
-  color: white; 
-  padding: %;  
 }
 
-div.heading{
+div.heading {
   text-align: center;
   color: white;
 }
-div.joinnow{
+
+div.joinnow {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
-  
+
   color: white;
 }
-div.joinnow > p{
+
+div.joinnow>p {
   border: 1px solid white;
   margin: 10px;
   padding: 5px;
   border-radius: 20%;
- 
+
 
 }
-div.topinfo{
+
+div.topinfo {
   display: flex;
   justify-content: center;
   margin-left: 10%;
-  padding-bottom: 2%; 
+  padding-bottom: 2%;
 }
 
-div.topinfo > div{
-  margin-right: 5%;  
-  padding: 2%;  
+div.topinfo>div {
+  margin-right: 5%;
+  padding: 2%;
   text-align: left;
   height: 5%;
   width: 30%;
-  
+
 }
 
-div.topinfo > div#white{   
+div.topinfo>div#white {
   background-color: white;
 }
-div.topinfo > div#blue{ 
+
+div.topinfo>div#blue {
   background-color: #23A6F0;
 }
 
 
 /* second part styling */
-div.cont2{
+div.cont2 {
   display: flex;
   justify-content: center;
-  font-size: small; 
+  font-size: small;
   padding-left: 10%;
   padding-top: 10%;
   padding-bottom: 10%;
 }
-div.cont2 > div{
+
+div.cont2>div {
   margin-right: 5%;
-  text-align: center; 
+  text-align: center;
   padding: 5%;
-  
-}
-/* third container styling */
-div.cont3{
-  background-color: whitesmoke;   
+
 }
 
-div#industry{
+/* third container styling */
+div.cont3 {
+  background-color: whitesmoke;
+}
+
+div#industry {
   padding-left: 20%;
   padding-right: 20%;
   text-align: center;
   padding-top: 10%;
-  
+
 }
-div.users{
+
+div.users {
   display: flex;
   justify-content: center;
   padding-top: 10%;
   padding-bottom: 10%;
 }
-div.users > div{
+
+div.users>div {
   margin: 2%;
   text-align: center;
   background-color: white;
@@ -134,15 +170,15 @@ div.users > div{
 }
 
 
-div.newsletter{
-  border: 1px solid black;  
+div.newsletter {
+  border: 1px solid black;
   display: flex;
-  justify-content: space-evenly;  
+  justify-content: space-evenly;
   width: 70%;
-  margin: auto;  
+  margin: auto;
 }
 
-div.logos{
+div.logos {
   display: flex;
   justify-content: center;
   width: 70%;
@@ -150,132 +186,143 @@ div.logos{
   margin-bottom: 10%;
 }
 
-div.logos > img{
+div.logos>img {
   margin: 2%;
 
 }
 
-p#two{
+p#two {
   background-color: #23A6F0;
-  padding-right: 20%;  
-}
-div#mail{  
-  display: flex;
-  justify-content: space-between;
-  
+  padding-right: 20%;
 }
 
-div#mail >p{
+div#mail {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+div#mail>p {
   border: 1px solid black;
   padding-right: 1%;
   padding-right: 40%;
- 
-} 
-div#pricing{
+
+}
+
+div#pricing {
   padding: 5%;
   text-align: center;
-  }
-p#blue{
+}
+
+p#blue {
   background-color: #23A6F0;
 }
-  
+
 /* pricing design */
-div.pricedivs{
+div.pricedivs {
   display: flex;
-  justify-content: center; 
-  text-align: center;  
+  justify-content: center;
+  text-align: center;
   padding-bottom: 5%;
 }
-div.pricedivs > div#free , div#premium{  
+
+div.pricedivs>div#free,
+div#premium {
   margin-top: 5%;
   background-color: white;
   border-radius: 5%;
 }
-p#blue{
- 
+
+p#blue {
+
   text-shadow: #23A6F0;
 }
-div#standard{
-  background-color:#252B42 ;
+
+div#standard {
+  background-color: #252B42;
   color: white;
   border-radius: 5%;
 }
-div.pricedivs >div{
-  border: 1px solid #23A6F0 ;
+
+div.pricedivs>div {
+  border: 1px solid #23A6F0;
   padding: 3%;
 }
+
 /* cont4 styling */
-div.cont4{
+div.cont4 {
   padding-left: 2%;
   padding-right: 2%;
   border: 1px solid black;
   background-color: #252B42;
 
 }
- 
 
-  div.cont4 > div#left{    
-    float: left;  
-    width: 40%; 
-    color: white;
-    height: 100%;
-    padding: auto;
-   
-  }
-  div.cont4 > div#right{
-    margin-left: 0;
-    float: right;  
-    
-  }
-  div.cont4 > div#bottom{
-    clear: both;
-  }
-  div.appointment{
-   display: flex; 
-   background-color: white;
-   width: 70%;  
-   margin-left: 15%;    
-  }
-  div.appointment > div#pic{
-    width: 50%;
-  }
 
-  div.appointment > div#table{
-    margin-left: 10%;
-  }
-  div#table >p{
-    border: 1px solid black;
-    background-color: whitesmoke;
-    padding-right: 80%;
-  }
+div.cont4>div#left {
+  float: left;
+  width: 40%;
+  color: white;
+  height: 100%;
+  padding: auto;
+
+}
+
+div.cont4>div#right {
+  margin-left: 0;
+  float: right;
+
+}
+
+div.cont4>div#bottom {
+  clear: both;
+}
+
+div.appointment {
+  display: flex;
+  background-color: white;
+  width: 70%;
+  margin-left: 15%;
+}
+
+div.appointment>div#pic {
+  width: 50%;
+}
+
+div.appointment>div#table {
+  margin-left: 10%;
+}
+
+div#table>p {
+  border: 1px solid black;
+  background-color: whitesmoke;
+  padding-right: 80%;
+}
 
 /* cont5 */
-div.contactus{
+div.contactus {
   display: flex;
   justify-content: space-between;
   padding-left: 10%;
-  padding-right: 10%;   
+  padding-right: 10%;
 }
 
-div.contactus >p{ 
+div.contactus>p {
   border: 1px solid #23A6F0;
   padding: 2%;
-  background-color:#23A6F0 ; 
+  background-color: #23A6F0;
 }
 
-div.cont6{ 
+div.cont6 {
   display: flex;
   justify-content: center;
   background-color: white;
 }
-div.cont7{
+
+div.cont7 {
   display: flex;
   justify-content: space-between;
   padding-left: 10%;
   padding-right: 10%;
   background-color: whitesmoke;
 }
-
-
-
-
