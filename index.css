@@ -79,8 +79,13 @@ ul #login {
 }
 
 div.heading {
+  padding-top: 15%;
+  padding-bottom: 5%;
   text-align: center;
   color: white;
+}
+.heading > h4{
+  
 }
 
 div.joinnow {
@@ -173,8 +178,12 @@ div.users>div {
   text-align: center;
   background-color: white;
   padding: 2%;
+  width: 100%;
 }
-
+.users img{
+  width: 40%;
+  padding-bottom: 10%;
+}
 
 div.newsletter {
   border: 1px solid black;
@@ -232,7 +241,8 @@ div.pricedivs {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
+  
 }
 
 div.pricedivs>div#free,
@@ -243,7 +253,6 @@ div#premium {
 }
 
 p#blue {
-
   text-shadow: #23A6F0;
 }
 
@@ -257,6 +266,10 @@ div.pricedivs>div {
   border: 1px solid #23A6F0;
   padding: 3%;
 }
+.pricedivs>div>h4{
+  padding-bottom: 8%;
+}
+
 
 /* cont4 styling */
 div.cont4 {
@@ -268,13 +281,10 @@ div.cont4 {
 
 }
 
-.world {
-  border: 1px solid black;
+.world { 
   width: 75%;
-
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .left {
@@ -286,7 +296,6 @@ div.cont4 {
 }
 
 .right {
-  border: 1px solid black;
   float: right;
   width: 55%;
 }
