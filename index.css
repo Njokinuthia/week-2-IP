@@ -282,22 +282,25 @@ div.cont4 {
 }
 
 .world { 
-  width: 75%;
+  padding-top: 5%;
+  width: 85%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  
 }
 
 .left {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
+  float: left;
   color: white;
+  width: 30%; 
+  padding-top: 5%; 
+  font-size: x-large;  
 }
+
+  
 
 .right {
   float: right;
-  width: 55%;
+  width: 70%;
 }
 
 div.bottom {
@@ -307,7 +310,7 @@ div.bottom {
   display: flex;
   justify-content: stretch;
   margin-left: 15%;
-  /* height: 30%; */
+  
 }
 
 div.pic {
